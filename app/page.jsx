@@ -1,6 +1,7 @@
 "use client";
 
 import Hero from "@/components/Hero";
+import Explore from "@/components/Explore";
 import { useEffect } from "react";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
   return (
     <div className="h-full overflow-x-hidden">
       <Hero />
+      <Explore/>
       {/*temporary*/}
       <div className="h-[4000px]"></div>
     </div>
