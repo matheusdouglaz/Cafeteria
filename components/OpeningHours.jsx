@@ -6,7 +6,7 @@ import Badge from "./Badge";
 
 const OpeningHours = () => {
   return (
-    <section className="flex bg-primary h-[60vh] xl:h-[80vh]">
+    <section id="opening" className="flex bg-primary h-[60vh] xl:h-[80vh]">
       {/*1*/}
       <div className="hidden relative xl:flex flex-1 justify-center items-center">
         {/*overlay*/}
